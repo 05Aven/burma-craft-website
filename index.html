@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>缅甸手工饰品 | 天然手作</title>
+    <!-- 引入css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">缅甸手作工坊</div>
+            <div class="nav-menu">
+                <a href="#home">首页</a>
+                <a href="#about">关于我们</a>
+                <a href="#product">产品</a>
+                <a href="#contact">联系我们</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏Banner -->
+    <section id="home" class="banner">
+        <div class="banner-text">
+            <h1>缅甸传统手工饰品</h1>
+            <p>天然材料 · 手工打造 · 特色东南亚手作</p>
+            <a href="#contact" class="btn">咨询了解</a>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>关于我们</h2>
+            <p>我们专注缅甸本土手工工艺品，每一件作品都是匠人手工制作。适合个人收藏、礼物、跨境零售。欢迎商家、爱好者咨询合作。</p>
+        </div>
+    </section>
+
+    <!-- 产品板块 -->
+    <section id="product" class="section bg-light">
+        <div class="container">
+            <h2>产品展示</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/a1.jpg" alt="手作饰品">
+                    <h3>藤编手链</h3>
+                    <p>缅甸天然藤条手工编织</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/a2.jpg" alt="木雕小摆件">
+                    <h3>木雕小摆件</h3>
+                    <p>柚木手工雕刻，纹理自然</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/a3.jpg" alt="布艺挂饰">
+                    <h3>民族布艺挂饰</h3>
+                    <p>缅甸传统刺绣工艺</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系板块 + 表单【核心交互部分！】 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>联系我们</h2>
+            <p>填写下面表单，消息会直接发送到邮箱</p>
+            <!-- 把下面your@email.com换成你自己用来测试的邮箱！！ -->
+            <form action="https://formsubmit.co/aven_0642@qq.com" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="您的姓名" required>
+                <input type="text" name="phone" placeholder="联系方式">
+                <textarea name="message" placeholder="留言内容，例如想要的产品、采购数量"></textarea>
+                <button type="submit" class="btn">提交留言</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2026 缅甸手作工坊</p>
+    </footer>
+</body>
+</html>
